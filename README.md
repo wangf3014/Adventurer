@@ -99,3 +99,13 @@ python -m torch.distributed.launch --nproc_per_node=8  --use_env main.py \
     --reprob 0.0 --smoothing 0.1 --no-repeated-aug --aa rand-m9-mstd0.5-inc1 \
     --epochs 20 --input-size 224 --drop-path 0.6 --dist-eval
 ```
+
+## Citation
+```bash
+@article{wang2024causal,
+  title={Causal Image Modeling for Efficient Visual Understanding},
+  author={Wang, Feng and Yang, Timing and Yu, Yaodong and Ren, Sucheng and Wei, Guoyizhe and Wang, Angtian and Shao, Wei and Zhou, Yuyin and Yuille, Alan and Xie, Cihang},
+  journal={arXiv preprint arXiv:2410.07599},
+  year={2024}
+}
+```
