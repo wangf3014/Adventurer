@@ -40,7 +40,7 @@ pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https
 ```bash
 pip install timm==0.4.12 mlflow==2.9.1 setuptools==69.5.1 wandb submitit
 ```
--Install causal-conv1d and mamba-2
+- Install causal-conv1d and mamba-2
 ```bash
 pip install causal-conv1d==1.2.1
 pip install mamba-ssm==2.0.4
