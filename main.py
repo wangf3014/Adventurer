@@ -444,9 +444,9 @@ def main(args):
             args.start_epoch = checkpoint['epoch'] + 1
             if args.model_ema:
                 utils._load_checkpoint_for_ema(model_ema, checkpoint['model_ema'])
-            if 'scaler' in checkpoint and args.if_amp: # change loss_scaler if not amp
+            if 'scaler' in checkpoint and args.amp: # change loss_scaler if not amp
                 loss_scaler.load_state_dict(checkpoint['scaler'])
-            elif 'scaler' in checkpoint and not args.if_amp:
+            elif 'scaler' in checkpoint and not args.amp:
                 loss_scaler = 'none'
         lr_scheduler.step(args.start_epoch)
         
