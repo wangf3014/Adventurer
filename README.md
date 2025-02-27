@@ -1,11 +1,12 @@
 # Causal Image Modeling for Efficient Visual Understanding
 *Official PyTorch implementation of Adventurer, linear-time image models with causal modeling paradigm.*
 
-*Arxiv: https://arxiv.org/pdf/2410.07599*
+In CVPR, 2025 *Arxiv: https://arxiv.org/pdf/2410.07599*
 
 <img src="images\framework.png" width="80%" />
 
 ## Release
+- [Feb.26.2025] 📢 The paper is accepted by CVPR2025!.
 - [Oct.13.2024] 📢 Code and model weights released.
 
 ## Models
